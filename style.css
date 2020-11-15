@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(103, 126, 159, 0.1);
+}
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+.all-countries-container {
+    margin-top: 210px;
+}
+
+.one-country-container {
+    margin-top: 110px;
+}
+
+.flag-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 5px;
+}
+.label {
+    width: 120px;
+}
+
+.img-fluid {
+    margin: 5px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.info-box {
+    text-align: center;
+}
+
+.filters {
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    padding: 16px;
+}
+
+.label-filter {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.region-filter {
+    width: 100px;
+}
+
+.country-link {
+    color: black;
+    text-decoration: none;
+}
+
+.country-link:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
