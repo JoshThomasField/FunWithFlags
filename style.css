@@ -15,11 +15,11 @@ body {
     flex-shrink: 0;
 }
 .all-countries-container {
-    margin-top: 210px;
+    margin-top: 10px;
 }
 
 .one-country-container {
-    margin-top: 110px;
+    margin-top: 10px;
 }
 
 .flag-container {
@@ -72,3 +72,8 @@ body {
     text-decoration: none;
     color: black;
 }
+/*@media only screen and (max-width: 600px) {*/
+/*    .search-fields {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
